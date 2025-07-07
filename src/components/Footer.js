@@ -8,17 +8,19 @@ export const Footer =()=>{
     return(
         <footer className="footer">
             <Container>
-                <Row className="align-item-center">
-                    <Col sm={6}> 
-                    <img src={logo} alt="logo"/>
+                <Row className="footer-flex-row">
+                    <Col xs={12} md={6} className="footer-logo-col text-md-start text-center">
+                        <img src={logo} alt="logo"/>
                     </Col>
-                    <Col sm={6} className="text-center text-sm-end">
-                    <div className="social-icon">
-                        <a href="https://www.linkedin.com/in/habeeb-182522225/"><img src={link}/></a>
-                        <a href="https://github.com/hxbeeb"><img src={git}/></a>
-                        <a href="https://x.com/hxbeeb_x"><img src={twitter}/></a>
-                    </div>
-                    <p>CopyRight {new Date().getFullYear()}. All Right Reserved</p>
+                    <Col xs={12} md={6} className="footer-right-col text-center text-md-end">
+                        <div className="footer-right-inner">
+                          <div className="social-icon">
+                              <a href="https://www.linkedin.com/in/habeeb-182522225/"><img src={link}/></a>
+                              <a href="https://github.com/hxbeeb"><img src={git}/></a>
+                              <a href="https://x.com/hxbeeb_x"><img src={twitter}/></a>
+                          </div>
+                          <p>CopyRight {new Date().getFullYear()}. All Right Reserved</p>
+                        </div>
                     </Col>
                 </Row>
             </Container>

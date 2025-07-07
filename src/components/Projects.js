@@ -7,66 +7,54 @@ import aip from "../assets/skills/ai.jpg"
 import webp from "../assets/skills/web.jpg"
 import pro2 from "../assets/skills/jetpack compose.png"
 import 'animate.css';
+import githubLogo from '../assets/github.svg';
+
 export const Projects = () => {
   const web = [
     {
-      title: "Portfolio",
-      description: "My portfolio website",
+      title: "AlgoCode",
+      description: "A modern DSA practice platform for coding and algorithms.",
       imgUrl: webp,
+      github: "https://github.com/hxbeeb/AlgoCode"
     },
     {
-      title: "Permalist",
-      description: "Todo react app with postgre sql",
+      title: "Smart Procure",
+      description: "A price comparison platform and Smart India Hackathon 2024 winner, built with Python, Selenium, and Flask.",
       imgUrl: webp,
+      github: "https://github.com/hxbeeb/smart-procure"
     },
     {
-      title: "KOKO-AI",
-      description: "Company website with auth",
+      title: "Buildify",
+      description: "A command-driven React.js platform that generates websites instantly from user input.",
       imgUrl: webp,
+      github: "https://github.com/hxbeeb/Website-Builder"
     },
     {
-      title: "Meal Mate",
-      description: "Ai based diet planner website",
+      title: "WaveLink",
+      description: "A real-time messaging and calling platform with text, audio, and video powered by WebRTC and Socket.IO.",
       imgUrl: webp,
+      github: "https://github.com/hxbeeb/WaveLink"
     },
-    
   ];
 
     const app = [
       {
-        title: "MeChat",
-        description: "Chat Application",
-        imgUrl: pro,
-      },
-      {
-        title: "HearIt",
-        description: "Music Player",
-        imgUrl: pro,
-      },
-      {
         title: "Xpense",
         description: "Expense Tracker",
         imgUrl: pro,
-      },
-      {
-        title: "Instagram Clone",
-        description: "An instagram clone App",
-        imgUrl: pro,
+        github: "https://github.com/hxbeeb/expense_tracker"
       },
       {
         title: "Rescue Mate",
         description: "A disaster alerting app",
         imgUrl: pro,
+        github: "https://github.com/hxbeeb/rescue-mate"
       },
       {
-        title: "Todo App",
-        description: "A simple Todo app with Firebase",
+        title: "Instagram Clone",
+        description: "An instagram clone App",
         imgUrl: pro,
-      },
-      {
-        title: "Calculator",
-        description: "A simple calculator",
-        imgUrl: pro2,
+        github: "https://github.com/hxbeeb/chatvista"
       },
     ];
     const ai = [
@@ -74,26 +62,19 @@ export const Projects = () => {
         title: "DeepFake",
         description: "DeepFake Video Detection",
         imgUrl: aip,
+        github: "https://github.com/hxbeeb/DeepFake"
       },
       {
         title: "Youtube Summarizer",
         description: "Youtube summarizer in multiple languages.",
         imgUrl: aip,
-      },
-      {
-        title: "Face Recognition",
-        description: "Expense Tracker",
-        imgUrl: aip,
+        github: "https://github.com/hxbeeb/eduai"
       },
       {
         title: "Chat-Bot",
         description: "Rules Controlled Chat-Bot",
         imgUrl: aip,
-      },
-      {
-        title: "Tic-Tac-Toe",
-        description: "AI Tic Tac Toe Bot",
-        imgUrl: aip,
+        github: "https://github.com/hxbeeb/chat-bot"
       },
     ];
   
