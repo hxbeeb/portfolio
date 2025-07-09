@@ -8,32 +8,38 @@ import webp from "../assets/skills/web.jpg"
 import pro2 from "../assets/skills/jetpack compose.png"
 import 'animate.css';
 import githubLogo from '../assets/github.svg';
+import algocodeImg from "../assets/projects/algocode.png";
+import smartProcureImg from "../assets/projects/smart-procure.jpeg";
+import buildifyImg from "../assets/projects/buildify.jpeg";
+import wavelinkImg from "../assets/projects/wavelink.png";
 
 export const Projects = () => {
   const web = [
     {
       title: "AlgoCode",
       description: "A modern DSA practice platform for coding and algorithms.",
-      imgUrl: webp,
-      github: "https://github.com/hxbeeb/AlgoCode"
+      imgUrl: algocodeImg,
+      github: "https://github.com/hxbeeb/AlgoCode",
+      link: "https://algocode-delta.vercel.app"
     },
     {
       title: "Smart Procure",
-      description: "A price comparison platform and Smart India Hackathon 2024 winner, built with Python, Selenium, and Flask.",
-      imgUrl: webp,
+      description: "A price comparison platform and Smart India Hackathon 2024 winner.",
+      imgUrl: smartProcureImg,
       github: "https://github.com/hxbeeb/smart-procure"
     },
     {
       title: "Buildify",
       description: "A command-driven React.js platform that generates websites instantly from user input.",
-      imgUrl: webp,
+      imgUrl: buildifyImg,
       github: "https://github.com/hxbeeb/Website-Builder"
     },
     {
       title: "WaveLink",
       description: "A real-time messaging and calling platform with text, audio, and video powered by WebRTC and Socket.IO.",
-      imgUrl: webp,
-      github: "https://github.com/hxbeeb/WaveLink"
+      imgUrl: wavelinkImg,
+      github: "https://github.com/hxbeeb/WaveLink",
+      link:"https://sike-chat.netlify.app"
     },
   ];
 
