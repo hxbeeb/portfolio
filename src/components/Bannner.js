@@ -20,7 +20,7 @@ export const Banner = () => {
             </h1>
             <p className="banner-desc">Building robust, scalable, and beautiful web applications from front-end to back-end. Passionate about delivering seamless digital experiences.</p>
             <a
-              href="https://drive.google.com/file/d/1PfWwau08h979G5vzQtQ4-lQJT_4x3PPw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1heFQs3HJYIm-5ImXLyxeiLCAmxvzo5bf/view?usp=sharing"
               className="resume-btn"
               target="_blank"
               rel="noopener noreferrer"
