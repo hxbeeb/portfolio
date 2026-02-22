@@ -1,4 +1,3 @@
-import { Col, Container, Row } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import bg from '../assets/color-sharp.png';
@@ -7,7 +6,6 @@ import meter2 from '../assets/skills/flutter.png';
 import meter3 from '../assets/skills/node.png';
 import express from '../assets/skills/express.png';
 import postgre from '../assets/skills/postgre.png';
-import firebase from '../assets/skills/firebase.png';
 import sql from '../assets/skills/sql.png';
 import jet from '../assets/skills/jetpack compose.png';
 import 'animate.css/animate.min.css';

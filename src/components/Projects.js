@@ -1,13 +1,10 @@
-import { Container, Row,Col,Tab,Nav, TabContainer } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import bg from "../assets/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import pro from "../assets/skills/flutter.png"
 import aip from "../assets/skills/ai.jpg"
-import webp from "../assets/skills/web.jpg"
-import pro2 from "../assets/skills/jetpack compose.png"
 import 'animate.css';
-import githubLogo from '../assets/github.svg';
 import algocodeImg from "../assets/projects/algocode.png";
 import smartProcureImg from "../assets/projects/smart-procure.jpeg";
 import buildifyImg from "../assets/projects/buildify.jpeg";
@@ -159,7 +156,7 @@ export const Projects = () => {
             </Col>
           </Row>
         </Container>
-        <img className="background-image-right" src={bg}></img>
+        <img className="background-image-right" src={bg} alt="" />
       </section>
     )
   }
