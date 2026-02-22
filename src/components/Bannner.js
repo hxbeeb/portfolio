@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import { Container, Row, Col } from "react-bootstrap"
-// import headerImg from "../assets/pic.png"
-import headerImg from "../assets/pic-removebg-preview.png"
+import headerImg from "../assets/profile.png"
 import 'animate.css/animate.min.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -20,7 +19,7 @@ export const Banner = () => {
             </h1>
             <p className="banner-desc">Building robust, scalable, and beautiful web applications from front-end to back-end. Passionate about delivering seamless digital experiences.</p>
             <a
-              href="https://drive.google.com/file/d/1heFQs3HJYIm-5ImXLyxeiLCAmxvzo5bf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GVk6sgaf5KJgYvi_7aKwweMJXC85IFN2/view?usp=sharing"
               className="resume-btn"
               target="_blank"
               rel="noopener noreferrer"
