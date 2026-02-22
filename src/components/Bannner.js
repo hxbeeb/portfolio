@@ -1,12 +1,9 @@
-import { useState, useEffect } from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import headerImg from "../assets/profile.png"
 import 'animate.css/animate.min.css';
-import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
-  const [text, setText] = useState('Full Stack Developer');
-  // No animation needed, just highlight the role
+  const text = 'Full Stack Developer';
   return (
     <section className="banner" id="home">
       <Container>

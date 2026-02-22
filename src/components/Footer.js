@@ -15,9 +15,9 @@ export const Footer =()=>{
                     <Col xs={12} md={6} className="footer-right-col text-center text-md-end">
                         <div className="footer-right-inner">
                           <div className="social-icon">
-                              <a href="https://www.linkedin.com/in/habeeb-182522225/"><img src={link}/></a>
-                              <a href="https://github.com/hxbeeb"><img src={git}/></a>
-                              <a href="https://x.com/hxbeeb_x"><img src={twitter}/></a>
+                              <a href="https://www.linkedin.com/in/habeeb-182522225/"><img src={link} alt="LinkedIn" /></a>
+                              <a href="https://github.com/hxbeeb"><img src={git} alt="GitHub" /></a>
+                              <a href="https://x.com/hxbeeb_x"><img src={twitter} alt="X (Twitter)" /></a>
                           </div>
                           <p>CopyRight {new Date().getFullYear()}. All Right Reserved</p>
                         </div>
